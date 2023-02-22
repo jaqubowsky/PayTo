@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="public/images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PayTo</title>
+  </head>
+
+  <body>
+    <div id="home-page">
+      <header class="home-page__header">
+        <div class="header__title">
+          <img
+            src="/images/favicon.png"
+            class="header__logo"
+            alt="PayTo Logo Icon"
+          />
+          <h1 class="header__text">PayTo</h1>
+        </div>
+        <div class="header__main-images">
+          <img
+            src="/images/card-front.png"
+            class="main-images__card-front"
+            alt="Credit card front view"
+          />
+          <img
+            src="/images/card-back.png"
+            class="main-images__card-back"
+            alt="Credit card back view"
+          />
+        </div>
+      </header>
+      <main class="home-page__main">
+        <h2 class="main__title">Add your informations</h2>
+        <div class="main__form-container">
+          <form action="#" id="mainForm">
+            <div class="form-container__form-input">
+              <label for="nameOnCard">Name on card</label>
+              <input
+                type="text"
+                id="nameOnCard"
+                name="nameOnCard"
+                placeholder="John Doe"
+              />
+              <small class="input-error" id="nameError">sample error</small>
+            </div>
+            <div class="form-container__form-input">
+              <label for="cardNumber">Card number</label>
+              <input
+                type="number"
+                name="cardNumber"
+                id="cardNumber"
+                maxlength="16"
+                pattern="^\d{16}$"
+                placeholder="1234 3243 1571 3145"
+              />
+              <small class="input-error" id="numberError">sample error</small>
+            </div>
+            <div class="form-container-horizontal">
+              <div class="form-container__form-input">
+                <label for="expiryDate">Expiry date (MM/YY)</label>
+                <input
+                  type="date"
+                  name="expiryDate"
+                  id="expiryDate"
+                  placeholder="05/25"
+                />
+                <small class="input-error" id="dateError">sample error</small>
+              </div>
+              <div class="form-container__form-input">
+                <label for="cvvNumber">Name on card</label>
+                <input
+                  type="number"
+                  maxlength="3"
+                  pattern="^\d{3}$"
+                  name="cvvNumber"
+                  id="cvvNumber"
+                  placeholder="415"
+                />
+                <small class="input-error" id="cvvError">sample error</small>
+              </div>
+            </div>
+            <button type="submit" class="form-container__submit-btn btn">
+              Next Step
+            </button>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/global-scripts/main.js"></script>
+    <script
+      type="module"
+      src="/src/pages/home-page/scripts/home-page.js"
+    ></script>
+  </body>
+</html>
