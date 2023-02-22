@@ -6,3 +6,9 @@ $main-black: #0d1016;
 $main-blue: #2162e3;
 $main-font-500: 500;
 $main-font-600: 600;
+
+@mixin flexContainer($direction, $justifyDirection) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyDirection;
+}
