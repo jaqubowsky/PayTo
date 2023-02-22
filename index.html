@@ -40,51 +40,58 @@
               <input
                 type="text"
                 id="nameOnCard"
-                name="nameOnCard"
+                name="name-on-card"
                 placeholder="John Doe"
               />
-              <small class="input-error" id="nameError">sample error</small>
+              <small class="input-error" id="nameError"></small>
             </div>
             <div class="form__input">
               <label for="cardNumber">Card number</label>
               <input
                 type="number"
-                name="cardNumber"
+                name="card_number"
                 id="cardNumber"
-                maxlength="16"
-                pattern="^\d{16}$"
                 placeholder="1234 3243 1571 3145"
               />
-              <small class="input-error" id="numberError">sample error</small>
+              <small class="input-error" id="numberError"></small>
             </div>
             <div class="form__input-horizontal">
               <div class="form__input">
-                <label for="expiryDate">Expiry date (MM/YY)</label>
+                <label for="cardExpirationDate">Expiry date (MM/YY)</label>
                 <input
                   type="month"
-                  name="expiryDate"
-                  id="expiryDate"
+                  name="card_expiration_date"
+                  id="cardExpirationDate"
                   placeholder="05/25"
                 />
-                <small class="input-error" id="dateError">sample error</small>
+                <small class="input-error" id="dateError"></small>
               </div>
               <div class="form__input form__input-small">
-                <label for="cvvNumber">CVV</label>
+                <label for="cardCvvNumber">CVV</label>
                 <input
                   type="number"
                   maxlength="3"
-                  pattern="^\d{3}$"
-                  name="cvvNumber"
-                  id="cvvNumber"
+                  name="cvv_number"
+                  id="cardCvvNumber"
                   placeholder="415"
                 />
-                <small class="input-error visible" id="cvvError">sample error</small>
+                <small class="input-error" id="cvvError"></small>
               </div>
             </div>
             <button type="submit" class="form-container__submit-btn btn">
               Next Step
             </button>
           </form>
+        </div>
+        <div class="alert hidden" id="alert">
+          <div class="alert__content">
+            <img
+              class="alert__img"
+              src="/images/success.png"
+              alt="success icon"
+            />
+            <p class="alert__text">Data added successfully!</p>
+          </div>
         </div>
       </main>
     </div>
