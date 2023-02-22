@@ -1,4 +1,6 @@
 .home-page__main {
+  @include flexContainer(column, flex-start);
+
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 
   .main__title {
@@ -46,10 +48,12 @@
     .form__input-horizontal {
       @include flexContainer(row, space-between);
       align-items: center;
+      max-width: 100%;
     }
 
     .form__input-horizontal .form__input {
       max-width: 60%;
+      width: 100%;
     }
 
     .form__input-horizontal .form__input-small {

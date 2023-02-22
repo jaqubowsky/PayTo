@@ -1,25 +1,26 @@
+.header__title {
+  @include flexContainer(row, center);
+  align-items: center;
+  padding-top: 1.25rem;
+  gap: 0.7rem;
+  background: $main-gray-300;
+
+  .header__text {
+    font-size: 1.125rem;
+  }
+
+  .header__logo {
+    width: 20.25px;
+    height: 20.25px;
+  }
+}
+
 .home-page__header {
   background-color: $main-gray-300;
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 
   @include flexContainer(column, flex-start);
   align-items: center;
-
-  .header__title {
-    @include flexContainer(row, center);
-    align-items: center;
-    margin-top: 1.25rem;
-    gap: 0.7rem;
-
-    .header__text {
-      font-size: 1.125rem;
-    }
-
-    .header__logo {
-      width: 20.25px;
-      height: 20.25px;
-    }
-  }
 
   .header__main-images {
     position: relative;
