@@ -29,15 +29,33 @@
 
       input {
         border-radius: 1.125rem;
-        border: 1.75px solid $main-gray-600;
+        border: 1.8px solid $main-gray-300;
         padding: 1.55rem 1.25rem 0.25rem 1.25rem;
         line-height: 1.5;
         outline: none;
+        transition: border-color 0.5s ease-in-out;
+
+        &:hover {
+          border-color: $main-gray-600;
+        }
+
+        &:focus {
+          border-color: $main-black;
+        }
+
+        &.invalid {
+          border-color: $main-red;
+        }
+
+        &.valid {
+          border-color: $main-green;
+        }
       }
     }
 
     .input-error {
       margin: 0.25rem 0 0 0.25rem;
+      color: red;
       visibility: hidden;
     }
 
@@ -69,5 +87,21 @@
     border-radius: 1.125rem;
     padding: 1.5rem 1.55rem 1.5rem 1.55rem;
     margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+
+    &:disabled {
+      background-color: $main-gray-600;
+      cursor: not-allowed;
+    }
+
+    &:hover {
+      background-color: $main-blue-hover;
+    }
+
+    &:focus {
+      transition: none;
+      background-color: $main-blue-click;
+    }
   }
 }
