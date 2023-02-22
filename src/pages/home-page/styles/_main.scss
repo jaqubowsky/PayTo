@@ -44,6 +44,7 @@
         }
 
         &.invalid {
+          animation: shake 0.4s ease-in-out;
           border-color: $main-red;
         }
 
@@ -54,8 +55,9 @@
     }
 
     .input-error {
-      margin: 0.25rem 0 0 0.25rem;
+      margin: 0.25rem 0 0.5rem 0.25rem;
       color: red;
+      text-align: left;
       visibility: hidden;
     }
 
