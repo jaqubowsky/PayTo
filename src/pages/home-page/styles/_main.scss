@@ -1,0 +1,69 @@
+.home-page__main {
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+
+  .main__title {
+    max-width: 150px;
+  }
+
+  .main__form-container {
+    margin-top: 2.25rem;
+
+    .form-container__form {
+      @include flexContainer(column, flex-start);
+    }
+
+    .form__input {
+      @include flexContainer(column, flex-start);
+      position: relative;
+
+      label {
+        position: absolute;
+        font-weight: $main-font-500;
+        font-size: 0.75rem;
+        color: $main-gray-600;
+        top: 11px;
+        left: 22px;
+      }
+
+      input {
+        border-radius: 1.125rem;
+        border: 1.75px solid $main-gray-600;
+        padding: 1.55rem 1.25rem 0.25rem 1.25rem;
+        line-height: 1.5;
+        outline: none;
+      }
+    }
+
+    .input-error {
+      margin: 0.25rem 0 0 0.25rem;
+      visibility: hidden;
+    }
+
+    .input-error.visible {
+      visibility: visible;
+    }
+
+    .form__input-horizontal {
+      @include flexContainer(row, space-between);
+      align-items: center;
+    }
+
+    .form__input-horizontal .form__input {
+      max-width: 60%;
+    }
+
+    .form__input-horizontal .form__input-small {
+      max-width: 35%;
+    }
+  }
+
+  .form-container__submit-btn {
+    color: $main-white;
+    background: $main-blue;
+    outline: none;
+    border: none;
+    border-radius: 1.125rem;
+    padding: 1.5rem 1.55rem 1.5rem 1.55rem;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+}

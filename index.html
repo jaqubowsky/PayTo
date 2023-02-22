@@ -34,8 +34,8 @@
       <main class="home-page__main">
         <h2 class="main__title">Add your informations</h2>
         <div class="main__form-container">
-          <form action="#" id="mainForm">
-            <div class="form-container__form-input">
+          <form action="#" id="mainForm" class="form-container__form">
+            <div class="form__input">
               <label for="nameOnCard">Name on card</label>
               <input
                 type="text"
@@ -45,7 +45,7 @@
               />
               <small class="input-error" id="nameError">sample error</small>
             </div>
-            <div class="form-container__form-input">
+            <div class="form__input">
               <label for="cardNumber">Card number</label>
               <input
                 type="number"
@@ -57,8 +57,8 @@
               />
               <small class="input-error" id="numberError">sample error</small>
             </div>
-            <div class="form-container-horizontal">
-              <div class="form-container__form-input">
+            <div class="form__input-horizontal">
+              <div class="form__input">
                 <label for="expiryDate">Expiry date (MM/YY)</label>
                 <input
                   type="month"
@@ -68,8 +68,8 @@
                 />
                 <small class="input-error" id="dateError">sample error</small>
               </div>
-              <div class="form-container__form-input">
-                <label for="cvvNumber">Name on card</label>
+              <div class="form__input form__input-small">
+                <label for="cvvNumber">CVV</label>
                 <input
                   type="number"
                   maxlength="3"
