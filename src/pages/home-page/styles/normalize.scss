@@ -168,6 +168,18 @@ textarea {
   margin: 0; /* 2 */
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
