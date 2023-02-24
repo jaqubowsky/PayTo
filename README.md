@@ -7,10 +7,9 @@
   </a>
 
 <h3 align="center">Form Validation aka PayTo</h3>
-  <h4 align="center">[Invo Academy](https://platform.invo.academy/challenges/7GtXRDZrkOzP8bP1l8sv)</h4>
 
   <p align="center">
-    Simple form validation
+    Simple form validation from the <strong>INVO Academy</strong>
     <br />
     <br />
     <a href="https://jaqubowsky.github.io/form-validation-invo/">View Demo</a>
@@ -50,9 +49,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![PayTo Project Screenshot][product-screenshot]](https://jaqubowsky.github.io/form-validation-invo/)
+<div align="center">
+  <a href="https://jaqubowsky.github.io/form-validation-invo/">
+    <img src="public/images/tablet.png" alt="form validation home page">
+  </a>
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
 
 ### Built With
 
@@ -111,5 +114,4 @@ Project Link: (https://github.com/jaqubowsky/movie-watchlist)
 [JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [CSS3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
-[product-screenshot]: public/images/tablet.png
 
