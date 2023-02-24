@@ -3,10 +3,11 @@
 <br />
 <div align="center">
   <a href="https://jaqubowsky.github.io/form-validation-invo/">
-    <img src="public/images/favicon.png" alt="Logo" width="80" height="80">
+    <img src="public/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Form Validation aka PayTo</h3>
+  <h4 align="center">[Invo Academy Project](https://platform.invo.academy/challenges/7GtXRDZrkOzP8bP1l8sv)</h4>
 
   <p align="center">
     Simple movie watchlist project
