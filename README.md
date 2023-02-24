@@ -49,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![PayTo Project Screenshot][product-screenshot]]https://jaqubowsky.github.io/form-validation-invo/)
+[![PayTo Project Screenshot][product-screenshot]](https://jaqubowsky.github.io/form-validation-invo/)
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
