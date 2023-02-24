@@ -7,10 +7,10 @@
   </a>
 
 <h3 align="center">Form Validation aka PayTo</h3>
-  <h4 align="center">[Invo Academy Project](https://platform.invo.academy/challenges/7GtXRDZrkOzP8bP1l8sv)</h4>
+  <h4 align="center">[Invo Academy](https://platform.invo.academy/challenges/7GtXRDZrkOzP8bP1l8sv)</h4>
 
   <p align="center">
-    Simple movie watchlist project
+    Simple form validation
     <br />
     <br />
     <a href="https://jaqubowsky.github.io/form-validation-invo/">View Demo</a>
