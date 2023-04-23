@@ -81,7 +81,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jaqubowsky/movie-watchlist.git
+   git clone git@github.com:jaqubowsky/PayTo.git
    ```
 2. Install NPM packages
    ```sh
